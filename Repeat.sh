@@ -8,9 +8,9 @@ read time_open
 
 while true
 do
-firefox $website &
+chrome $website &
 sleep $time_open
-wmctrl -c firefox
+wmctrl -c chrome
 sleep $time
 done
 
